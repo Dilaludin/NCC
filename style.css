@@ -69,3 +69,12 @@
     color: #007bff;
     text-decoration: none;
 }
+#cosimg{
+    width: 150px;
+    height: 150px;
+    background-size:cover ;
+    background-position: center;
+}
+
+
+

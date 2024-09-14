@@ -10,10 +10,10 @@
 </head>
 <body>
   
-  <nav class="navbar">
+  <nav class="navbar sticky-top">
     <div class="container">
       <a class="navbar-brand fs-2">NCC</a>
-      <button id="navbtn" class="btn btn-outline-success me-2" type="button">Courses</button>
+      <a href="./course.html"><button id="navbtn" class="btn btn-outline-success me-2" type="button">Courses</button></a>
       </nav>
     </div>
   </nav>
@@ -25,14 +25,14 @@
     </div>
   </section>
 
-  <section>
+  <section id="stf_std">
     <div class="container-fluid text-dark p-5 text-center">
       <div  class="row">
-        <div id="hero2" class="col-6">
+        <div id="hero2" class="col-sm-12">
           <p class="fs-3">STAFF</p>
           <p>Here We have more than 10+ years Experience Staff were Appointed to Teach You Very Well to grow up your career by our NCC Class , Being calm and polite and teach with more real world example for your knowledge growth ,start your first steop of your life by our great teachers</p>
         </div>
-        <div id="hero2" class="col-6">
+        <div id="hero2" class="col-sm-12">
           <p class="fs-3">STUDENTS</p>
           <p> The Content for some rules and regulation for our Student  , you should be in the time of your classes , be polite and ccalm in the campus , mobiles were not allowed in the classs room ,Be patient for carry you by our teachers to teach you.Thanking you to being a student of our NCC class </p>
         </div>
@@ -40,7 +40,7 @@
     </div>
   </section>
 
-  <section class="container p-5">
+  <section class="container p-2">
     <div  id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -49,32 +49,32 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./image/pexels-natri-128622.jpg" class="d-block w-100" alt="...">
+          <img src="./image/pexels-natri-128622.jpg" class="img-fluid rounded mx-auto d-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Become a Developer</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./image/pexels-rdne-6517335.jpg" class="d-block w-100" alt="...">
+          <img src="./image/pexels-rdne-6517335.jpg" class="img-fluid rounded mx-auto d-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Develop your Career</h5>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./image/pexels-ron-lach-10643471.jpg" class="d-block w-100" alt="...">
+          <img src="./image/pexels-ron-lach-10643471.jpg" class="img-fluid rounded mx-auto d-block" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Be First with Best</h5>
             <p>Some representative placeholder content for the third slide.</p>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <button class="carousel-control-prev bg-dark w-auto rounded" style="height:30px;top: 150px;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <button class="carousel-control-next w-auto rounded bg-dark" style="height:30px;top: 150px;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -83,7 +83,7 @@
 
 
   <section id="hero">
-    <p class="text-white text-center fs-2">TEACHER'S</p>
+    <p class="text-white text-center fs-2 pt-4">TEACHER'S</p>
     <div class="container mt-5">
       <div class="row">
           <!-- Card 1 -->
@@ -208,36 +208,14 @@
   <footer class="footer"></footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <h5>About Us</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
-            </div>
-            <div class="col-md-4">
-                <h5>Links</h5>
-                <ul class="list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <h5>Follow Us</h5>
-                <a href="#" class="mr-2"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="mr-2"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="mr-2"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
             <div class="col text-center">
-                <p class="mb-0">&copy; 2023 Your Company. All rights reserved.</p>
+                <p class="mb-0 sticky-bottom ">&copy; 2024 Developed By Deen</p>
             </div>
         </div>
     </div>
 </footer>
 </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
